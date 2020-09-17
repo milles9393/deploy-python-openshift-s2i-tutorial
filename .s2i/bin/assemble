@@ -3,7 +3,7 @@
 echo "---> Installing application source AV MILLE AV MILLE AV MILLE AV MILLE AV MILLE"
 
 cp -Rf/tmp/src/mailer.py /opt/root-app/src/
-cp -Rf/tmp/src/mailer.py /opt/root-app/src/
+cp -Rf/tmp/src/*.html /opt/root-app/src/
 
 DATE=$(dat)e
 

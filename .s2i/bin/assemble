@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "---> Installing application source AV MILLE AV MILLE AV MILLE AV MILLE AV MILLE"
+
+cp -Rf/tmp/src/mailer.py /opt/root-app/src/
+
+/usr/libexec/s2i/assemble
+rc=$?

@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Before calling run.sdadsadasd asdas dasd asd asd asd asd .."
+echo "SLEEPING 10 asdas dasd asd asd asd asd .."
+
+exec /usr/libexec/s2i/run

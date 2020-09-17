@@ -5,7 +5,7 @@ echo "---> Installing application source AV MILLE AV MILLE AV MILLE AV MILLE AV 
 cp -Rf/tmp/src/mailer.py /opt/root-app/src/
 cp -Rf/tmp/src/*.html /opt/root-app/src/
 
-DATE=$(dat)e
+DATE=`date "+%b %d, %Y @ %H:%M %p"`
 
 echo "$DATE" >> ./info.html
 

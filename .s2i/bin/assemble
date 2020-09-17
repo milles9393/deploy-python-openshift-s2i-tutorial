@@ -3,6 +3,11 @@
 echo "---> Installing application source AV MILLE AV MILLE AV MILLE AV MILLE AV MILLE"
 
 cp -Rf/tmp/src/mailer.py /opt/root-app/src/
+cp -Rf/tmp/src/mailer.py /opt/root-app/src/
+
+DATE=$(date)
+
+echo $DATE > ./info.html
 
 /usr/libexec/s2i/assemble
 rc=$?
